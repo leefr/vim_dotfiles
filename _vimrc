@@ -156,7 +156,7 @@ set wildignore+=*.o,*.obj,.git,*.pyc
 set wildignore+=eggs/**
 set wildignore+=*.egg-info/**
 
-set grepprg=ack         " replace the default grep program with ack
+" set grepprg=ack         " replace the default grep program with ack
 
 
 " Set working directory
@@ -232,14 +232,15 @@ set incsearch               " Incrementally search while typing a /regex
 
 """" Display
 if has("gui_running")
-    colorscheme desert
+    "colorscheme desert
+    colorscheme native
     " Remove menu bar
-    set guioptions-=m
+    " set guioptions-=m
 
     " Remove toolbar
-    set guioptions-=T
+    " set guioptions-=T
 else
-    colorscheme torte
+    "colorscheme torte
 endif
 
 " Paste from clipboard
