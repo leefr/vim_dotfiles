@@ -47,6 +47,9 @@
 " MakeGreen
 "    Generic test runner that works with nose
 "
+" MiniBufExplorerpp
+"    Elegant buffer explorer - takes very little screen space
+"
 " ==========================================================
 " Shortcuts
 " ==========================================================
@@ -304,3 +307,13 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
 endif
 
 set colorcolumn=79
+
+
+" ===========================================================
+" MiniBufExlp settings
+" ===========================================================
+
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
