@@ -1,0 +1,1 @@
+../bundle/minibufexplorerpp/plugin/minibufexplpp.vim
