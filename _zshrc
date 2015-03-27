@@ -1,0 +1,50 @@
+#
+# .zshrc is sourced in interactive shells.
+# It should contain commands to set up aliases,
+# functions, options, key bindings, etc.
+#
+
+# source profile like .bashrc
+if [ -f /etc/profile ]; then
+	source /etc/profile
+fi
+
+HISTSIZE=2000
+SAVEHIST=2000
+HISTFILE=~/.zhistory
+
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
+
+setopt MENUCOMPLETE
+setopt CHASE_LINKS
+
+PS1='%S%m%s [%n]%# '
+RPS1='%~'
+                                                                                
+alias more='less'
+alias ls='ls -F --color --ignore="*class"'
+alias ll='ls -l --color --ignore="*class"'
+alias lt='ls -lt --color --ignore="*class"'
+alias la='ls -lA'
+alias l='ls -CF'
+alias grep='grep --color=auto'
+alias vi='vim'
+
+alias update='cvs -q update -dPA'
+alias br_update='cvs -q update -dP'
+alias checkout='cvs -q checkout -PA'
+alias br_checkout='cvs -q checkout -r'
+alias commit='cvs -q commit'
+#alias mk='build'
+#alias pj='ps wwwww -fu ispheres  | grep java'
+alias mvnskip='mvn -Dmaven.test.skip=true'
+ 
+bindkey -v
+ 
+fignore=( .o .class \~ .bak .swp ,v .u )
+ 
+ 
+LS_COLORS='no=00:fi=00:di=01;36:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.deb=01;31:';
+export LS_COLORS
+ 
