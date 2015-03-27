@@ -60,7 +60,7 @@
 	url = https://github.com/tomtom/tlib_vim.git
 [submodule "_vim/bundle/snippets"]
 	path = _vim/bundle/snippets
-	url = https://github.com/honza/vim-snippets.git snipmate-snippets
+	url = https://github.com/honza/vim-snippets.git
 [submodule "_vim/bundle/minibufexplorerpp"]
 	path = _vim/bundle/minibufexplorerpp
 	url = https://github.com/vim-scripts/minibufexplorerpp.git
