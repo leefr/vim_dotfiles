@@ -21,12 +21,12 @@ setopt INC_APPEND_HISTORY
 
 # Set up the prompt
 
-autoload -Uz promptinit
-promptinit
-prompt adam1
+#autoload -Uz promptinit
+#promptinit
+#prompt adam1
 
-#PS1='%S%m%s [%n]%# '
-#RPS1='%~'
+PS1='%K{blue}%m%k %F{white}[%n]%f %# '
+RPS1='%~'
 #
 alias more='less'
 alias ls='ls -F --color --ignore="*class"'
