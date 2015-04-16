@@ -8,6 +8,10 @@
 if [ -f /etc/profile ]; then
     source /etc/profile
 fi
+# source user profile
+if [ -f ~/profile ]; then
+    source ~/profile
+fi
 
 HISTSIZE=2000
 SAVEHIST=2000
