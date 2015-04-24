@@ -29,7 +29,7 @@ setopt INC_APPEND_HISTORY
 #promptinit
 #prompt adam1
 
-PS1='%K{blue}%m%k %F{white}[%n]%f %# '
+PS1='%F{white}%K{blue}%m%k [%n]%f %# '
 RPS1='%~'
 #
 alias more='less'
@@ -55,8 +55,8 @@ bindkey -v
 fignore=( .o .class \~ .bak .swp ,v .u )
 
 
-#LS_COLORS='no=00:fi=00:di=01;36:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.deb=01;31:';
-#export LS_COLORS
+LS_COLORS='no=00:fi=00:di=01;36:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.deb=01;31:';
+export LS_COLORS
 #
 #
 # Use modern completion system
@@ -68,7 +68,7 @@ zstyle ':completion:*' completer _expand _complete _correct _approximate
 zstyle ':completion:*' format 'Completing %d'
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*' menu select=2
-eval "$(dircolors -b)"
+#eval "$(dircolors -b)"
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' list-colors ''
 zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
