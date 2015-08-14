@@ -76,6 +76,9 @@ nmap <leader>sb :call SplitScroll()<CR>
 " sudo write this
 cmap W! w !sudo tee % >/dev/null
 
+" Un-highlight search
+map <leader>l :nohl<CR>
+
 " Toggle the tasklist
 map <leader>td <Plug>TaskList
 
