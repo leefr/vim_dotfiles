@@ -67,3 +67,6 @@
 [submodule "_vim/bundle/plantuml-syntax"]
 	path = _vim/bundle/plantuml-syntax
 	url = https://github.com/aklt/plantuml-syntax.git
+[submodule "_vim/bundle/elixir"]
+	path = _vim/bundle/elixir
+	url = git@github.com:elixir-lang/vim-elixir.git

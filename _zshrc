@@ -13,8 +13,8 @@ if [ -f ~/.profile ]; then
     source ~/.profile
 fi
 
-HISTSIZE=2000
-SAVEHIST=2000
+HISTSIZE=8000
+SAVEHIST=8000
 HISTFILE=~/.zhistory
 
 setopt INC_APPEND_HISTORY
