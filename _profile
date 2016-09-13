@@ -22,3 +22,7 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+# Set golang bin on path
+export GOPATH="$HOME/gowork"
+PATH="$PATH:/usr/local/go/bin"
