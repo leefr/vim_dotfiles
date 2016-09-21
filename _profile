@@ -26,3 +26,6 @@ fi
 # Set golang bin on path
 export GOPATH="$HOME/gowork"
 PATH="$PATH:/usr/local/go/bin"
+if [ -d "$GOPATH/bin" ] ; then
+    PATH="$PATH:$GOPATH/bin"
+fi
