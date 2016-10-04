@@ -1,0 +1,53 @@
+"*":
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
+    erlangHome: "/usr/local/lib/elixir/bin"
+  "autocomplete-plus": {}
+  core:
+    disabledPackages: [
+      "atom-python-debugger"
+      "linter-python-pep8"
+      "linter-python-pyflakes"
+      "python-iresolve"
+      "python-isort"
+    ]
+    ignoredNames: [
+      ".git *.pyc"
+    ]
+  editor:
+    fontSize: 13
+    invisibles: {}
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "f37cb876-c9b0-fc5f-a24e-56f2b4a347f5"
+  gofmt:
+    formatTool: "goreturns"
+  "gometalinter-linter": {}
+  linter:
+    errorPanelHeight: 24
+  "linter-elixirc": {}
+  "linter-golinter": {}
+  "linter-gotype": {}
+  "linter-govet":
+    executablePath: "/usr/local/go/bin/go"
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "plantuml-viewer": {}
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
