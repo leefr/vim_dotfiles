@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11693-9354-u910fh/package.tgz",
+        "raw": "/tmp/d-11695-13161-m4et87/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11693-9354-u910fh/package.tgz",
-        "spec": "/tmp/d-11693-9354-u910fh/package.tgz",
+        "rawSpec": "/tmp/d-11695-13161-m4et87/package.tgz",
+        "spec": "/tmp/d-11695-13161-m4et87/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11693-9354-16md8qu"
+      "/tmp/apm-install-dir-11695-13161-1b18d5a"
     ]
   ],
-  "_from": "../d-11693-9354-u910fh/package.tgz",
-  "_id": "go-plus@4.3.1",
+  "_from": "../d-11695-13161-m4et87/package.tgz",
+  "_id": "go-plus@4.3.2",
   "_inCache": true,
   "_installable": true,
   "_location": "/go-plus",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11693-9354-u910fh/package.tgz",
+    "raw": "/tmp/d-11695-13161-m4et87/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11693-9354-u910fh/package.tgz",
-    "spec": "/tmp/d-11693-9354-u910fh/package.tgz",
+    "rawSpec": "/tmp/d-11695-13161-m4et87/package.tgz",
+    "spec": "/tmp/d-11695-13161-m4et87/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11693-9354-u910fh/package.tgz",
-  "_shasum": "2b5b1aff32b67325a60f813991e18bc57cef35c5",
+  "_resolved": "file:../d-11695-13161-m4et87/package.tgz",
+  "_shasum": "393ffb1cd94fe0815a2a1345d98d999071d101cb",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11693-9354-u910fh/package.tgz",
-  "_where": "/tmp/apm-install-dir-11693-9354-16md8qu",
+  "_spec": "/tmp/d-11695-13161-m4et87/package.tgz",
+  "_where": "/tmp/apm-install-dir-11695-13161-1b18d5a",
   "author": {
     "name": "Joe Fitzgerald",
     "email": "jfitzgerald@pivotal.io",
@@ -156,5 +156,5 @@
       "waitsForPromise"
     ]
   },
-  "version": "4.3.1"
+  "version": "4.3.2"
 }

@@ -26,7 +26,7 @@
     formatTool: "goreturns"
   "gometalinter-linter": {}
   linter:
-    errorPanelHeight: 24
+    errorPanelHeight: 68
   "linter-elixirc": {}
   "linter-golinter": {}
   "linter-gotype": {}
