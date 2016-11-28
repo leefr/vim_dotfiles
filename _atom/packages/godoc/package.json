@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11693-9365-1g4z6cj/package.tgz",
+        "raw": "/tmp/d-116914-8315-1mgywra/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11693-9365-1g4z6cj/package.tgz",
-        "spec": "/tmp/d-11693-9365-1g4z6cj/package.tgz",
+        "rawSpec": "/tmp/d-116914-8315-1mgywra/package.tgz",
+        "spec": "/tmp/d-116914-8315-1mgywra/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11693-9365-vlcmzj"
+      "/tmp/apm-install-dir-116914-8315-3d7uks"
     ]
   ],
-  "_from": "../d-11693-9365-1g4z6cj/package.tgz",
-  "_id": "godoc@1.1.0",
+  "_from": "../d-116914-8315-1mgywra/package.tgz",
+  "_id": "godoc@1.1.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/godoc",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11693-9365-1g4z6cj/package.tgz",
+    "raw": "/tmp/d-116914-8315-1mgywra/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11693-9365-1g4z6cj/package.tgz",
-    "spec": "/tmp/d-11693-9365-1g4z6cj/package.tgz",
+    "rawSpec": "/tmp/d-116914-8315-1mgywra/package.tgz",
+    "spec": "/tmp/d-116914-8315-1mgywra/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11693-9365-1g4z6cj/package.tgz",
-  "_shasum": "64f5f2965d78537ae9442bc728148e4bac885cd3",
+  "_resolved": "file:../d-116914-8315-1mgywra/package.tgz",
+  "_shasum": "56cbc94f59f07e050c25cdfe57d18330fd8146b9",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11693-9365-1g4z6cj/package.tgz",
-  "_where": "/tmp/apm-install-dir-11693-9365-vlcmzj",
+  "_spec": "/tmp/d-116914-8315-1mgywra/package.tgz",
+  "_where": "/tmp/apm-install-dir-116914-8315-3d7uks",
   "author": {
     "name": "Zac Bergquist",
     "email": "zbergquist99@gmail.com",
@@ -92,7 +92,7 @@
       }
     }
   },
-  "readme": "# godoc\n\n[![Build status](https://ci.appveyor.com/api/projects/status/fh6q7tayuwqqd1sq?svg=true)](https://ci.appveyor.com/project/zmb3/godoc)\n[![Build Status](https://travis-ci.org/zmb3/godoc.svg?branch=master)](https://travis-ci.org/zmb3/godoc)\n\nAn [Atom](https://atom.io) package for the Go language that shows documentation\nfor identifiers in source code.\n\n![Screenshot](https://www.dropbox.com/s/0f9o08p4j7yod58/godoc.PNG?raw=1)\n\n## Prerequisites\n\nThis package uses the [`gogetdoc`](https://github.com/zmb3/gogetdoc) tool to\nfind documentation.  This tool **requires Go 1.6**.\n\n## Usage\n\nPlace the cursor over the identifier to get documentation for, and press <kbd>Alt</kbd> + <kbd>D</kbd>.\n\nTo close the documentation window, press <kbd>esc</kbd> or click the 'X' in the top right corner.\n",
+  "readme": "# godoc\n\n[![Build status](https://ci.appveyor.com/api/projects/status/fh6q7tayuwqqd1sq?svg=true)](https://ci.appveyor.com/project/zmb3/godoc)\n[![Build Status](https://travis-ci.org/zmb3/godoc.svg?branch=master)](https://travis-ci.org/zmb3/godoc)\n\nAn [Atom](https://atom.io) package for the Go language that shows documentation\nfor identifiers in source code.\n\n![Screenshot](https://cloud.githubusercontent.com/assets/7527103/19372483/c9f1a06a-9179-11e6-8ba0-8f5096f7a49c.png)\n\n## Prerequisites\n\nThis package uses the [`gogetdoc`](https://github.com/zmb3/gogetdoc) tool to\nfind documentation.  This tool **requires Go 1.6**.\n\n## Usage\n\nPlace the cursor over the identifier to get documentation for, and press <kbd>Alt</kbd> + <kbd>D</kbd>.\n\nTo close the documentation window, press <kbd>esc</kbd> or click the 'X' in the top right corner.\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
@@ -105,5 +105,5 @@
       "HTMLElement"
     ]
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }

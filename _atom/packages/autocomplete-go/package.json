@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-11693-9321-qsl4zh/package.tgz",
+        "raw": "/tmp/d-116913-15271-1ntx4zc/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-11693-9321-qsl4zh/package.tgz",
-        "spec": "/tmp/d-11693-9321-qsl4zh/package.tgz",
+        "rawSpec": "/tmp/d-116913-15271-1ntx4zc/package.tgz",
+        "spec": "/tmp/d-116913-15271-1ntx4zc/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-11693-9321-r74cna"
+      "/tmp/apm-install-dir-116913-15271-4jzyut"
     ]
   ],
-  "_from": "../d-11693-9321-qsl4zh/package.tgz",
-  "_id": "autocomplete-go@1.2.0",
+  "_from": "../d-116913-15271-1ntx4zc/package.tgz",
+  "_id": "autocomplete-go@1.3.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/autocomplete-go",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-11693-9321-qsl4zh/package.tgz",
+    "raw": "/tmp/d-116913-15271-1ntx4zc/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-11693-9321-qsl4zh/package.tgz",
-    "spec": "/tmp/d-11693-9321-qsl4zh/package.tgz",
+    "rawSpec": "/tmp/d-116913-15271-1ntx4zc/package.tgz",
+    "spec": "/tmp/d-116913-15271-1ntx4zc/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11693-9321-qsl4zh/package.tgz",
-  "_shasum": "f8d65a7c1ee0a84a9b88c7c973a7d57a91c9d422",
+  "_resolved": "file:../d-116913-15271-1ntx4zc/package.tgz",
+  "_shasum": "b6ad81e1b1148a7e2bddf8b2a4dd95e654ef1e4a",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-11693-9321-qsl4zh/package.tgz",
-  "_where": "/tmp/apm-install-dir-11693-9321-r74cna",
+  "_spec": "/tmp/d-116913-15271-1ntx4zc/package.tgz",
+  "_where": "/tmp/apm-install-dir-116913-15271-4jzyut",
   "author": {
     "name": "Joe Fitzgerald",
     "email": "jfitzgerald@pivotal.io",
@@ -149,7 +149,7 @@
   },
   "description": "An autocomplete-plus provider for the Go language that uses gocode to provide suggestions.",
   "devDependencies": {
-    "standard": "^8.2.0"
+    "standard": "^8.3.0"
   },
   "engines": {
     "atom": ">=1.5.3 <2.0.0"
@@ -190,5 +190,5 @@
       "waitsForPromise"
     ]
   },
-  "version": "1.2.0"
+  "version": "1.3.0"
 }

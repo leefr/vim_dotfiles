@@ -6,32 +6,43 @@
   core:
     disabledPackages: [
       "atom-python-debugger"
-      "linter-python-pep8"
-      "linter-python-pyflakes"
       "python-iresolve"
       "python-isort"
+      "script"
+      "linter-elixirc"
     ]
     ignoredNames: [
       ".git *.pyc"
     ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
   editor:
-    fontSize: 13
+    fontSize: 12
     invisibles: {}
+    showIndentGuide: true
     showInvisibles: true
-    tabLength: 4
+    softWrap: true
+    softWrapHangingIndent: 4
     tabType: "soft"
   "exception-reporting":
     userId: "f37cb876-c9b0-fc5f-a24e-56f2b4a347f5"
+  "go-plus":
+    panelDisplayMode: "closed"
   gofmt:
     formatTool: "goreturns"
   "gometalinter-linter": {}
   linter:
     errorPanelHeight: 68
-  "linter-elixirc": {}
+  "linter-elixir-credo":
+    executablePath: "/usr/local/bin/mix"
+    flags: "--strict"
+  "linter-elixirc":
+    mixPath: "/usr/local/bin/mix"
   "linter-golinter": {}
   "linter-gotype": {}
   "linter-govet":
     executablePath: "/usr/local/go/bin/go"
+  "linter-shellcheck": {}
   minimap:
     plugins:
       bookmarks: true
@@ -51,3 +62,10 @@
   "vim-mode": {}
   welcome:
     showOnStartup: false
+".elixir.text":
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
