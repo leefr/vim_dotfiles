@@ -44,6 +44,7 @@ Currently supported grammars are:
 | Go                                   | Yes        |                 | |
 | Groovy                               | Yes        | Yes             | |
 | Haskell                              | Yes        | Yes             | |
+| HTML                                 | Yes        |                 | Opens File in Browser |
 | Hy                                   | Yes        | Yes             | Requires the path of 'hy.exe' in your system environment variables. This is probably already fulfilled if you used `pip install hy` to get Hy. A Hy grammar, such as [this one](https://atom.io/packages/language-hy) is also a good idea. |
 | IcedCoffeeScript                     | Yes        | Yes             | |
 | Inno Setup                           | Yes        |                 | Requires the path of `ISCC.exe` in your system environment variables |
@@ -54,6 +55,7 @@ Currently supported grammars are:
 | Jolie                                | Yes        |                 | |
 | Julia                                | Yes        | Yes             | |
 | Kotlin                               | Yes        | Yes             | |
+| LAMMPS                               | Yes        |                 | Only available on Linux and macOS. Requires 'lammps' to be in path. |
 | LaTeX (via latexmk)                  | Yes        |                 | |
 | LilyPond                             | Yes        |                 | |
 | Lisp (via SBCL)                      | Yes        | Yes             | Selection based runs are limited to single line |
@@ -83,12 +85,14 @@ Currently supported grammars are:
 | PowerShell                           | Yes        | Yes             | |
 | Processing                           | Yes        |                 | Runs through processing-java. |
 | Prolog                               | Yes        |                 | Scripts must contain a rule with the head `main` (e.g.`main:- parent(X,lucas),writeln(X).`). The script is executed with the goal `main` and is halted after the first result is found. The output is produced by the `writeln/1` predicates. It requires swipl |
+| PureScript                           | Yes        |                 | Requires `pulp` to be in path. |
 | Python                               | Yes        | Yes             | |
 | R                                    | Yes        | Yes             | |
 | Racket                               | Yes        | Yes             | |
 | [RANT](https://github.com/TheBerkin/Rant) | Yes        | Yes             | |
 | Reason                               | Yes        | Yes             | |
 | Ren'Py                               | Yes        | No              | Requires `renpy` to be in path. Runs project at root of current file.|
+| Robot Framework                      | Yes        | No              | Requires `robot` to be in path. Output location depends on CWD behaviour which can be altered in settings. |
 | RSpec                                | Yes        | Yes             | |
 | Ruby                                 | Yes        | Yes             | |
 | Ruby on Rails                        | Yes        | Yes             | |
@@ -103,6 +107,7 @@ Currently supported grammars are:
 | Swift                                | Yes        |                 | |
 | Tcl                                  | Yes        | Yes             | |
 | TypeScript                           | Yes        | Yes             | Requires `ts-node` https://github.com/TypeStrong/ts-node |
+| VBScript                             | Yes        | Yes             | |
 | Zsh                                  | Yes        | Yes             | The shell used is based on your default `$SHELL` environment variable |
 
 **NOTE**: Some grammars may require you to install [a custom language package](https://atom.io/search?utf8=✓&q=language).

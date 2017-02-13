@@ -29,3 +29,9 @@ PATH="$PATH:/usr/local/go/bin"
 if [ -d "$GOPATH/bin" ] ; then
     PATH="$PATH:$GOPATH/bin"
 fi
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export PATH="$PATH:$HOME/.cargo/bin"

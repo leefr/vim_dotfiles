@@ -9,7 +9,6 @@
       "python-iresolve"
       "python-isort"
       "script"
-      "linter-elixirc"
     ]
     ignoredNames: [
       ".git *.pyc"
@@ -17,7 +16,7 @@
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
   editor:
-    fontSize: 12
+    fontSize: 11
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -53,12 +52,13 @@
       "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
       "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
       selection: true
       selectionDecorationsZIndex: 0
   "plantuml-viewer": {}
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   "vim-mode": {}
   welcome:
     showOnStartup: false
