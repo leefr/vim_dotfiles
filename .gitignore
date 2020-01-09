@@ -3,4 +3,8 @@
 *~
 _vim/ropevim/src*
 _vim/ropevim/pylibs*
-_atom/*
+_atom/storage
+_atom/compile-cache
+_atom/dev
+_atom/.npm
+_atom/.node-gyp

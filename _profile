@@ -24,14 +24,23 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 # Set golang bin on path
+export GOROOT="/usr/local/go"
 export GOPATH="$HOME/gowork"
-PATH="$PATH:/usr/local/go/bin"
+PATH="$PATH:$GOROOT/bin"
 if [ -d "$GOPATH/bin" ] ; then
     PATH="$PATH:$GOPATH/bin"
 fi
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$HOME/.npm-global/bin:$PATH:$HOME/.cargo/bin"
+
+function meatcat {
+    if [ -n "$1" ]; then
+        cat "$1" |  grep -v "^\w*#" | grep -v "^\w*$"
+    else
+        cat - |  grep -v "^\w*#" | grep -v "^\w*$"
+    fi
+}

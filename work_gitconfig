@@ -1,6 +1,6 @@
 [user]
-    name = Lee F. Rosen
-    email = lrosen@synopsys.com
+	name = lrosen
+	email = lrosen@synopsys.com
 
 [color]
     diff = auto
